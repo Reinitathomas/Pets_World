@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Pet's World</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-----------------------------------------Style Sheets----------------------------------------------------->
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <!---------------------------------------- Google fonts ---------------------------------------------------->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@800&family=Ubuntu:ital,wght@1,700&display=swap" rel="stylesheet">
+
+    <!--------------------------------------- Font Awesome ------------------------------------------------------->
+    <script defer src="https://use.fontawesome.com/releases/v5.5.0/js/all.js"></script>
+
+    <!----------------------------------------- Bootstrap Scripts ------------------------------------------------->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+  </head>
+  <body>
+    <nav>
+      <input type="checkbox" id="check">
+      <label for="check" class="checkbtn">
+        <i class="fas fa-bars"></i>
+      </label>
+      <label class="logo">Petify</label>
+      <ul>
+        <li><a class="active" href="index.html">Home</a></li>
+        <li><a href="#about_page">About</a></li>
+        <li><a href="#video">Videos</a></li>
+        <li><a href="pet.html">Pet Nutrition</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+    <section id="animals">
+      <div id="slider">
+        <figure>
+          <img src="images\dog1.jpg" alt="">
+          <img src="images\kit1.jpg" alt="">
+          <img  src="images\fish.jpg" alt="">
+          <img src="images\chick.jpg" alt="">
+        </figure>
+      </div>
+      <div>
+        <h1 class="big-heading">For those who love animals</h1>
+        <h2 class="section-heading">Welcome to Petify!</h2>
+      </div>
+    </section>
+
+    <!--------------------------------------------------Features Section---------------------------------------------------------------->
+    <div id="features">
+      <h1 id="about_page">About</h1>
+      <div class="container-fluid">
+        <div class="row">
+          <div class="feature-box col-lg-4">
+            <i class="icon fas fa-dog fa-4x"></i>
+            <h3 class="feature-title">Pet Breeds and personality.</h3>
+            <p>Do you wanna learn more about your cute best friend? Check out our complete library on the most popular pet breeds out there!</p>
+          </div>
+          <div class="feature-box col-lg-4">
+            <i class="icon far fa-dot-circle fa-4x"></i>
+            <h3 class="feature-title">Behaviour and Training guides</h3>
+            <p>Having trouble with your pet? no worries we are here to help with the up to date information on behaviour and Training.</p>
+          </div>
+  
+          <div class="feature-box col-lg-4">
+            <i class="icon fas fa-heart fa-4x"></i>
+            <h3 class="feature-title">Locate the nearest shelters.</h3>
+            <p>Think about adopting when looking for a new pet , we can connect you to the nearest rescue and shelters.</p>
+          </div>
+  
+          <div class="feature-box col-lg-4">
+            <i class="icon far fa-check-circle fa-4x"></i>
+            <h3 class="feature-title">Pet Nutrition</h3>
+            <p>Keep your pet healthy and strong with pet nutrition and health guides.</p>
+          </div>
+  
+          <div class="feature-box col-lg-4">
+            <i class="icon fas fa-briefcase-medical fa-4x"></i>
+            <h3 class="feature-title">Health Care and Wellness.</h3>
+            <p>The most up to date information on pet heallth industry as well as tips and tricks on how to take the best care of your best friend.</p>
+          </div>
+
+          <div class="feature-box col-lg-4">
+            <i class="icon fas fa-heart fa-4x"></i>
+            <h3 class="feature-title">Know More.</h3>
+            <p>Wanna Know more about your pets.Click on the below link for more information</p>
+            <a href="https://reinitathomas.github.io/dogsworld/">About Dogs</a>
+            <br>
+            <a href="https://reinitathomas.github.io/cats_world/">About Cats</a>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <!------------------------------------------------Entertainment--------------------------------------------------------------------------->
+    <div class="video" id="video">
+      <h1>Videos Section</h1>
+      <br>
+      <h2>You can also share your experience with us in the contact section</h2>
+      <h3 style="text-align: center;">Here are some cute videos that would refresh your minds</h3>
+      <br>
+      <div class="row">
+        <div class="col">
+          <video controls width="350" height="350">
+            <source src="images\pet2.mp4" type="video/mp4" autostart="false">
+          </video>
+        </div>
+        <div class="col">
+          <video controls width="350" height="350">
+            <source src="images\pets_play.mp4" type="video/mp4" autostart="false">
+          </video>
+        </div>
+        <div class="col">
+          <object autostart="false" height="350" width="350">
+          <param name="movie" value="https://www.youtube.com/embed/LYC2gMDAt_I">
+          <param name="wmode" value="transparent">
+          <embed autostart="false" height="550" src="https://youtu.be/LYC2gMDAt_I" type="application/x-shockwave-flash" width="600" wmode="transparent">
+          </object>
+        </div>
+      </div>
+  
+    </div>
+
+    <!----------------------------------------Contact Me--------------------------------------------------------------------------->
+
+      <div id="contact" class="contact-me">
+        <h2>Wanna Get in touch with our Developers</h2><br>
+        <div class="row">
+          <div class="col">
+           <br><br> <img style="padding: 50px;" src="images\developer.png" alt=""> <br><br>
+          </div>
+          <div class="col">
+            <br> <br> <img style="padding: 60px;" src="images\developer1.png" alt=""> <br> <br>
+          </div>
+        </div>
+        <h1>You can share your lovely experience with your pets</h1>
+        <br>
+        <h2>We would love to hear from you <br> <br> <a class="btn btn-primary ren" href="mailto:reinitathomas@gmail.com">CONTACT US</a></h2>
+
+      </div>
+      <div class="bottom-container">
+        <a class="footer-link" href="https://www.linkedin.com/in/reinita-thomas-27876b1b5">LinkedIn</a>
+        <a class="footer-link" href="https://www.facebook.com/reinita.thomas">Facebook</a>
+        <a class="footer-link" href="https://repl.it/@ReinitaThomas">Replit</a>
+        <a class="footer-link" href="https://github.com/Reinitathomas">Git Hub</a>
+        <p class="copyright">© 2021 REINITA THOMAS.</p>
+      </div>
+
+
+
+</body>
+</html>
+
+    
